@@ -9,7 +9,7 @@ const request = (onSuccess: any, onError: any) => {
     requestCount++;
 
     if (requestCount % 5 === 0) {
-        setTimeout(() => onError("Server Error!"), 2000)
+        setTimeout(() => onError("Server Error every 5th request!"), 2000)
     }
 
     setTimeout(() => onSuccess([{

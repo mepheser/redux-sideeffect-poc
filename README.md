@@ -7,6 +7,11 @@
  
  ## Usage
  
- `yarn install` 
+ `yarn install` once to install
  
- `yarn start`
+ `yarn start` to start at port 3000
+ 
+ ## Notes
+ 
+ * created with `create-react-app my-app --scripts-version=react-scripts-ts
+`
