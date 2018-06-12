@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad4f17d8-77b9-4238-a101-cfd0c0692498" name="Default" comment="" />
+    <list default="true" id="ad4f17d8-77b9-4238-a101-cfd0c0692498" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,18 +29,6 @@
       <file leaf-file-name="actions.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/store/thunk/actions.ts">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="createReduxStore.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/config/createReduxStore.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="AppState.ts" pinned="false" current-in-tab="false">
@@ -68,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sagas.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sagas.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/store/saga/sagas.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="65">
@@ -76,6 +66,23 @@
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="images.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images.d.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="130">
+                <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -101,15 +108,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/components/App.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -119,6 +117,9 @@
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -149,6 +150,7 @@
         <option value="$PROJECT_DIR$/src/app/store/observable/epics.ts" />
         <option value="$PROJECT_DIR$/src/app/store/reducer.ts" />
         <option value="$PROJECT_DIR$/src/app/store/saga/sagas.ts" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -199,6 +201,7 @@
     <option name="width" value="1640" />
     <option name="height" value="1027" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -244,29 +247,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="store" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tipico-middleware-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tipico-middleware-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="saga" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tipico-middleware-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tipico-middleware-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="thunk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tipico-middleware-poc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tipico-middleware-poc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="types" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -376,12 +356,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528733967316</updated>
       <workItem from="1528733970961" duration="9422000" />
-      <workItem from="1528796806250" duration="8650000" />
+      <workItem from="1528796806250" duration="8935000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18072000" />
+    <option name="totallyTimeSpent" value="18357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1640" height="1027" extended-state="0" />
@@ -396,7 +376,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32978722" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -517,25 +497,6 @@
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="42">
-            <caret line="131" column="7" selection-start-line="131" selection-start-column="7" selection-end-line="131" selection-end-column="7" />
-            <folding>
-              <element signature="e#0#41#0" expanded="true" />
-              <element signature="e#0#41#0" expanded="true" />
-              <element signature="e#0#26#0" expanded="true" />
-              <element signature="e#0#42#0" expanded="true" />
-              <element signature="e#0#26#0" expanded="true" />
-              <element signature="e#0#28#0" expanded="true" />
-              <element signature="e#0#28#0" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -751,6 +712,19 @@
           <folding>
             <element signature="e#0#47#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="130">
+            <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
