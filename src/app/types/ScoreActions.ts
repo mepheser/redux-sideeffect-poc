@@ -6,6 +6,8 @@ export enum ScoreActionKeys {
     LOAD_PENDING_WITH_EPIC = "LOAD_PENDING_WITH_EPIC",
     LOAD_SUCCESS = "LOAD_SUCCESS",
     LOAD_ERROR = "LOAD_ERROR",
+    START_POLLING_WITH_EPIC = "START_POLLING_WITH_EPIC",
+    STOP_POLLING = "STOP_POLLING",
 }
 
 export interface ILoadPendingAction {
@@ -30,9 +32,20 @@ export interface ILoadErrorAction {
     payload: string;
 }
 
+export interface IStartPollingWithEpicAction {
+    type: ScoreActionKeys.START_POLLING_WITH_EPIC;
+}
+
+export interface IStopPolling {
+    type: ScoreActionKeys.STOP_POLLING;
+    payload: string
+}
+
 export type ScoreActionTypes =
     | ILoadPendingAction
     | ILoadPendingSagaAction
     | ILoadPendingEpicAction
     | ILoadSuccessAction
-    | ILoadErrorAction;
+    | ILoadErrorAction
+    | IStartPollingWithEpicAction
+    | IStopPolling;
